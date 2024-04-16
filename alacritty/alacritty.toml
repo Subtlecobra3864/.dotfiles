@@ -3,6 +3,10 @@ live_config_reload = true
 [env]
 TERM = "alacritty"
 
+[cursor.style]
+shape = "Block"
+blinking = "Always"
+
 [font]
 size = 15
 
@@ -20,4 +24,3 @@ background = "0x0a0a0a"
 dynamic_title = true
 dynamic_padding = true
 opacity = 1.0
-
