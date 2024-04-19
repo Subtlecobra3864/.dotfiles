@@ -1,5 +1,5 @@
-require('adam.options')
-require('adam.keybinds')
+require('adam.set')
+require('adam.remap')
 
 require('adam.lazy_init')
 

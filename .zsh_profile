@@ -1,0 +1,10 @@
+export XDG_CONFIG_HOME=$HOME/.config
+VIM="nvim"
+
+export GIT_EDITOR=$VIM
+
+eval "$(fzf --zsh)"
+
+alias vim=nvim
+alias tmux-sessionizer="~/.scripts/tmux-sessionizer"
+bindkey -s ^f "tmux-sessionizer\n"
